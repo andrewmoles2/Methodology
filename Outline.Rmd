@@ -1,0 +1,92 @@
+---
+title: "Methodology outline"
+author:
+   - name: Andrew Moles
+     affiliation: Learning Developer, Digital Skills Lab
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document: 
+    theme: readable
+    highlight: pygments
+    keep_md: no
+    code_download: true
+    toc: TRUE
+    toc_float: FALSE
+---
+
+## general base R
+View()
+is.na()
+using !
+abs(), sqrt()
+## Selecting columns
+tapply()
+lapply()
+by()
+attributes()
+## reading in data
+read.csv
+readRDS()
+readxl::read_excel()
+haven::read_dta()
+## Frequencies/categorical data
+table()
+prop.table()
+prop.test()
+descr::freq(), CrossTable()
+relevel()
+rockchalk::combineLevels()
+labelled::var_label(), to_factor()
+## Exploring data
+summary()
+psych::describe(), describeby()
+## dplyr
+rename()
+groupby()
+summarize()
+## Plotting
+barplot()
+hist()
+boxplot()
+boxplot2()
+lattice::histogram
+ggplot2 scatter plots
+sjPlot::tab_model(), sjt.xtab(), plot_xtab(), plot_scatter()
+## Analysis
+### distributions
+sd(), var(), pt(), qt(), qnorm(), pnorm()
+### Regression
+lm()
+abline()
+### Frequencies
+descr::Crosstable()
+chisq.test(),  pchisq()
+### Comparing groups
+t.test
+### questionr
+Set of functions to make the processing and analysis of surveys easier : interactive shiny apps and addins for data recoding, contingency tables, dataset metadata handling, and several 
+### convenience functions
+#### sjmisc
+Collection of miscellaneous utility functions, supporting data transformation tasks like recoding, dichotomizing or grouping variables, setting and replacing missing values. The data transformation functions also support labelled data, and all integrate seamlessly into a 'tidyverse'-workflow.
+frq()
+plot_frq()
+### sjlabelled
+Collection of functions dealing with labelled data, like reading and writing data between R and other statistical software packages like 'SPSS', 'SAS' or 'Stata', and working with labelled data. This includes easy ways to get, set or change value and variable label attributes, to convert labelled vectors into factors or numeric (and vice versa), or to deal with multiple declared missing values
+### PerformanceAnalytics
+Econometric Tools for Performance and Risk Analysis
+chart.Correlation()
+lmfit()
+
+## Testing things out
+
+```{r}
+sessionInfo()
+```
+
+## Notes
+
+Session 3 uses plyr, a package whose life cycle has been retired. It is still being maintained but the developers suggest [you should move to dplyr](https://github.com/hadley/plyr#status-).
+
+Noticed in the forum several issues installing `summarytools`. Package looks up to date, so the issues are likely with older computers. Also, the recommendations to fix software issues on the package page on GitHub include using brew through the terminal, which is a bit heavy for newbies. As most mac users need to install XQuartz these days to run RStudio, the issue will likely be Magick++. 
+
+
