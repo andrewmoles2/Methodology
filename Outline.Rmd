@@ -85,8 +85,6 @@ sessionInfo()
 
 ## Notes
 
-Session 3 uses plyr, a package whose life cycle has been retired. It is still being maintained but the developers suggest [you should move to dplyr](https://github.com/hadley/plyr#status-).
-
 Noticed in the forum several issues installing `summarytools`. Package looks up to date, so the issues are likely with older computers. Also, the recommendations to fix software issues on the package page on GitHub include using brew through the terminal, which is a bit heavy for newbies. As most mac users need to install XQuartz these days to run RStudio, the issue will likely be Magick++. 
 
 
