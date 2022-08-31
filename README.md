@@ -4,7 +4,7 @@ This repository is for LSE Methodology students who are having difficulty gettin
 
 We have set up a cloud based RStudio for students which has all the libraries used in the R Methodology sessions installed, as well as all the scripts used for both MY451 and MY465. 
 
-To access the cloud enviroment click on the following link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andrewmoles2/Methodology/main?urlpath=rstudio) 
+To access the cloud environment click on the following link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andrewmoles2/Methodology/main?urlpath=rstudio){target="_blank"}
 
 Note that it will take up to 5 minutes to build the environment for you. Just leave it to do it's thing and don't refresh the page.
 
