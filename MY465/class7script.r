@@ -6,7 +6,7 @@
 #(under week 8: linear regression 4)
 #This is because you need to be working on the latest version of the dataset
 #Open the data file
-load("bbc.RData")
+load("MY465/bbc.RData")
 View(bbc)
 
 # just in case you need this, here are the commands to install some packages

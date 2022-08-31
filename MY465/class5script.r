@@ -3,7 +3,7 @@
 ### We continue with the complete Boosting Belligerence dataset (from last week) 
 
 #Opening the data file. 
-load("bbc.RData")
+load("MY465/bbc.RData")
 View(bbc)
 																	
 # just in case you need this, here are the commands to install packages

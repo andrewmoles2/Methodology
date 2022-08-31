@@ -7,7 +7,7 @@
 #as a RData file
 #Select the following two lines of code and click on 'run' in the top-right of this 
 #left-hand quadrant.
-load("bb.RData")
+load("MY465/bb.RData")
 View(bb)
 
 #R packages are collections of functions and datasets developed by people across the world.

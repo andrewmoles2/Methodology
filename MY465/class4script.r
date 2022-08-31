@@ -4,7 +4,7 @@
 ### that continues a larger number of variables (e.g. the moral foundations variables)
 
 #Opening the data file. 
-load("bbc.RData")
+load("MY465/bbc.RData")
 View(bbc)
 
 #Install some packages

@@ -32,7 +32,7 @@ library(sjPlot)
 
 #First dataset
 #we have simulated the Pfizer trial data
-load("covidtrial.RData")
+load("MY465/covidtrial.rdata")
 View(covidtrial)
 
 #let's take a look at the results of the trial 
@@ -59,7 +59,7 @@ pred_prob_1
 #these are the data from study 1 of  Wilson & Rule's (2015) 
 #examination of whether people overgeneralize trustworthiness 
 #in extreme criminal-sentencing decisions when it should not be judicially relevant
-load("tf.RData")
+load("MY465/tf.RData")
 View(tf)
 
 #Part four

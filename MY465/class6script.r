@@ -2,7 +2,7 @@
 ### Copmputer exercise 6: multiple linear regression 2
 
 #Opening the data file. 
-load("bbc.RData")
+load("MY465/bbc.RData")
 View(bbc)
 
 # just in case you need this, here are the commands to install packages
@@ -80,7 +80,7 @@ summary(model2)
 tab_model(model2, show.se = TRUE, show.stat = TRUE, digits = 2)
 
 #let us turn to the bullshit dataset. 
-load("bs.RData")
+load("MY465/bs.RData")
 View(bs)
 
 #let's build up to testing an interaction effect. First, a linear model

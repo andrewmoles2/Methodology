@@ -5,7 +5,7 @@
 #recall that these are the data from study 1 of  Wilson & Rule's (2015) 
 #examination of whether people overgeneralize trustworthiness 
 #in extreme criminal-sentencing decisions when it should not be judicially relevant
-load("tf.RData")
+load("MY465/tf.RData")
 View(tf)
 
 # let's call on the package ggplot2 (for fitted probabilities) 
